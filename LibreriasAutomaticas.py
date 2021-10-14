@@ -27,8 +27,7 @@ S8       .  :  %............. .......  :      [5] shap
 %t%t%t%t%%%t%t%%%t%t%t%: 8:8  %%t%t%t%tS
 %%t%t%t%t%t%t%t%t%t%t%t%;.   t%%t%t%t%%%
 %%%S8%8%8%%8 8%8%8%%8 %%%: ;%%%%%8%%8t%%
-                                         Francisco Salgado Castaño
-                                              y Sofia Cordoba Rojas
+                                         Francisco Salgado Castaño, Edilson Lopez y Sofia Cordoba Rojas.
                                          Github: https://github.com/FranciscoWesker/Instalador-de-librerias     
 """)
 ans=True
