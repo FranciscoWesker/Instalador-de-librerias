@@ -32,7 +32,7 @@ S8       .  :  %............. .......  :      [5] shap
 """)
 ans=True
 ens=False
-while ans !=4:
+while ans !=8:
   ans=int(input("Seleccione una opcion: "))
   if ans==1:
    print ("Instalando Numpy....") 
@@ -64,5 +64,5 @@ En el instalador te la opcion de agregar el PATH.""")
 
 
   elif ans==8:
-    salir=True
+    salir = True
 
