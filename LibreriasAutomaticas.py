@@ -28,7 +28,7 @@ S8       .  :  %............. .......  :      [5] shap
 %%t%t%t%t%t%t%t%t%t%t%t%;.   t%%t%t%t%%%
 %%%S8%8%8%%8 8%8%8%%8 %%%: ;%%%%%8%%8t%%
                                          Francisco Salgado Castaño
-                                              y Sofia Cordoba Rojas
+                                         Edilson Lopez     y Sofia Cordoba Rojas
 """)
 ans=True
 ens=False
