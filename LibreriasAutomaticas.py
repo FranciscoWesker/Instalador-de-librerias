@@ -27,30 +27,40 @@ S8       .  :  %............. .......  :      [5] shap
 %t%t%t%t%%%t%t%%%t%t%t%: 8:8  %%t%t%t%tS
 %%t%t%t%t%t%t%t%t%t%t%t%;.   t%%t%t%t%%%
 %%%S8%8%8%%8 8%8%8%%8 %%%: ;%%%%%8%%8t%%
-                                         Francisco Salgado Castaño, Edilson Lopez y Sofia Cordoba Rojas.
-                                         Github: https://github.com/FranciscoWesker/Instalador-de-librerias     
+                                         Francisco Salgado Castaño
+                                              y Sofia Cordoba Rojas
 """)
 ans=True
 ens=False
 while ans !=8:
   ans=int(input("Seleccione una opcion: "))
   if ans==1:
-   print ("Instalando Numpy....") 
+   print ("""Instalando Numpy....
+          import numpy as np #Importamos numpy como np
+""") 
    print(call(["pip","install","numpy"]))
 
   elif ans==2:
-    print ("Instalando Pandas...")
+    print ("""Instalando Pandas...
+              import pandas as pd  #Importamos pandas como pd
+              import numpy as np   #Tambien lo podenmos importar como np
+""")
     print(call(["pip","install","pandas"]))
 
   elif ans==3:
-    print ("Instalando Matplotlib...")
+    print ("""Instalando Matplotlib...
+            import matplotlib.pyplot as plt #Importamos Matplotlib como plt
+""")
     print(call(["pip","install","matplotlib"]))
 
   elif ans==4:
-     print ("Instalando Numba...")
+     print ("""Instalando Numba...
+               from numba import jit #importamos Numba como jit
+           """)
      print(call(["pip","install","numba"]))
   elif ans==5:
-     print ("Instalando shap...")
+     print ("""Instalando shap...
+            import shap #Importamos shap como shap""")
      print(call(["pip","install","shap"]))
   elif ans==6:
     print ("Intalando bokeh...")
